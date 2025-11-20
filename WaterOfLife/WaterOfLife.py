@@ -14,7 +14,7 @@ st.sidebar.markdown("취향 기반 술 추천 바")
 # 메인 타이틀
 st.title("🍶 생명의물")
 st.markdown("### 취향으로 찾아가는, 나만의 한 잔")
-st.image("images/mainpage.jpg")
+st.image("images\mainpage.jpg")
 
 st.markdown(
     """
@@ -57,7 +57,7 @@ with col1:
 
 with col2:
     st.image(
-        "images/mainpage_warehouse.png",
+        "images\mainpage_warehouse.png",
         caption="당신의 취향에 맞는 한 잔을 찾는 공간, 생명의물"
     )
 
