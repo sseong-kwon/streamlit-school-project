@@ -3,7 +3,7 @@ import streamlit as st
 # 페이지 기본 설정
 st.set_page_config(
     page_title="생명의물",
-    page_icon="images/SiteLogo.png",
+    page_icon="images/1_SiteLogo.png",
     layout="centered"
 )
 
