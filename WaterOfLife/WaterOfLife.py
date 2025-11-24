@@ -3,7 +3,7 @@ import streamlit as st
 # 페이지 기본 설정
 st.set_page_config(
     page_title="생명의물",
-    page_icon="images/1_SiteLogo.png",
+    page_icon="WaterOfLife/images/1_SiteLogo.png",
     layout="centered"
 )
 
@@ -12,10 +12,10 @@ st.sidebar.title("🍶 생명의물")
 st.sidebar.markdown("취향 기반 술 추천 바")
 
 # 메인 타이틀
-st.image("images/0_LiqureMate.png")
+st.image("WaterOfLife/images/0_LiqureMate.png")
 # st.title("🍶 생명의물")
 st.markdown("### 취향으로 찾아가는, 나만의 한 잔")
-st.image("images/2_MainBanner.png")
+st.image("WaterOfLife/images/2_MainBanner.png")
 
 st.markdown(
     """
@@ -58,7 +58,7 @@ with col1:
 
 with col2:
     st.image(
-        "images/mainpage_warehouse.png",
+        "WaterOfLife/images/mainpage_warehouse.png",
         caption="당신의 취향에 맞는 한 잔을 찾는 공간, 생명의물"
     )
 
